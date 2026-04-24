@@ -11,6 +11,3 @@ public class SampleTest extends BaseTest {
         loginPage.userLogin("Admin", "admin123");
     }
 }
-
-
-// assert if dashboard element is visible
