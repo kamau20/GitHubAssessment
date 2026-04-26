@@ -10,7 +10,7 @@ import java.util.logging.Logger;
 public class ConfigReader {
     private static ConfigReader instance;
     private static final Properties properties = new Properties();
-    private static final String testdataFilePath = "/home/kamau/IdeaProjects/GitHubAssessment/src/test/resources/TestData.Properties";
+    private static final String testdataFilePath = "src/test/resources/TestData.Properties";
 
     private ConfigReader() {
         try(InputStream inputStream = new FileInputStream(testdataFilePath)) {
